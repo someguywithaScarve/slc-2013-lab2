@@ -1,0 +1,25 @@
+Project instructions:
+
+Create a new vite project and name it Lab-2 inside the Labs git repo folder.
+Create a new images folder in the ready-made assets folder
+Download the attached Lab-2-images.zip folder above.
+Unzip the photos folder and move/copy its contents to the src/assets/images folder.
+Try your best to match the fonts and colours to the screenshot above by editing the app.css file.
+Create a new folder in the src folder named "data"
+Download data.ts and place it in the new data folder.
+Use the data provided in data.ts by importing it into the project.
+Use conditional styling to colour any rating above 4.0; colour the rating text in green; otherwise, colour the text in red.
+Copy and paste this star ★ character to use in your code.
+Make a container component that will contain all the card components.
+Make one card component and change it using props.
+
+
+Submission:
+Screenshot of your final project pasted here on Blackboard.
+GitHub repo link of your project.
+
+
+Grading:
+Screenshot (1 point)
+TSX code correctness (3 points)
+Files and folders structure (1 point) 
