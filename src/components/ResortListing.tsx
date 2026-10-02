@@ -10,9 +10,9 @@ export default function ResortListing({
         <div className="ResortListing">
             <img src={pic} alt="" width="100px"/>
             <h2>{country}</h2>
-            <p>{location}</p>
-            <p>★{rating}</p>
-            <p>{price}</p>
+            <p><i>{location}</i></p>
+            <p className={rating > 4.0 ? "ratingPos" : "ratingNeg"}>{rating}★</p>
+            <p>${price}/night</p>
         </div>
     );
 }

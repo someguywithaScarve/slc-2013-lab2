@@ -8,7 +8,7 @@ Try your best to match the fonts and colours to the screenshot above by editing 
 Create a new folder in the src folder named "data" X
 Download data.ts and place it in the new data folder. X
 Use the data provided in data.ts by importing it into the project. X
-Use conditional styling to colour any rating above 4.0; colour the rating text in green; otherwise, colour the text in red.
+Use conditional styling to colour any rating above 4.0; colour the rating text in green; otherwise, colour the text in red. X
 Copy and paste this star ★ character to use in your code. X
 Make a container component that will contain all the card components. X
 Make one card component and change it using props. X

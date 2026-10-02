@@ -182,15 +182,24 @@
     border-right-color: var(--border);
   }
 }
+
+.ratingPos {
+  color: green;
+}
+.ratingNeg {
+  color: red;
+}
 .ResortListing {
-  width: 200px;
-  padding: 10px;
+  width: 100px;
+  padding: 15px;
   margin: 10px;
 }
 .ResortListingContainer {
-  padding: 5px;
-  margin: 5px;
-  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0px;
 }
 
 @media (max-width: 500px) {
