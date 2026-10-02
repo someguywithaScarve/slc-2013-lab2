@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <header className='top-header'>
-        <h1>Resort Lite</h1>
+        <h1>Resorts Lite</h1>
       </header>
       <ResortListingContainer data = {data}/>
     </>
