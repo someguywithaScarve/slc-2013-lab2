@@ -8,7 +8,7 @@ export default function ResortListing({
 }: ResortListingProps) {
     return (
         <div className="ResortListing">
-            <img src={pic} alt="" width="100px"/>
+            <img src={pic} alt=""/>
             <h2>{country}</h2>
             <p><i>{location}</i></p>
             <p className={rating > 4.0 ? "ratingPos" : "ratingNeg"}>{rating}★</p>

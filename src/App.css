@@ -3,7 +3,7 @@
   padding: 5px 10px;
   border-radius: 5px;
   color: var(--accent);
-  background: var(--accent-bg);
+  background: #0d0f13;
   border: 2px solid transparent;
   transition: border-color 0.3s;
   margin-bottom: 24px;
@@ -119,7 +119,7 @@
     color: var(--text-h);
     font-size: 16px;
     border-radius: 6px;
-    background: var(--social-bg);
+    background: #0d0f13;
     display: flex;
     padding: 6px 12px;
     align-items: center;
@@ -182,21 +182,33 @@
     border-right-color: var(--border);
   }
 }
-
+.top-header {
+  background-color: #15171e;
+  position: sticky;
+  top: 0;
+}
 .ratingPos {
   color: green;
 }
 .ratingNeg {
   color: red;
 }
+h2{
+  font-size: large;
+}
 .ResortListing {
-  width: 100px;
-  padding: 15px;
-  margin: 10px;
+  width: 150px;
+  padding: 10px;
+  font-size: medium;
+  text-align: left;
+}
+.ResortListing img{
+  width: 100%;
+  padding-bottom: 5px;
+  display: block;
 }
 .ResortListingContainer {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   gap: 0px;
@@ -211,6 +223,6 @@
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    margin: 10px auto;
+    margin: 5px auto;
   }
 }

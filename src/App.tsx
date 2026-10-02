@@ -5,7 +5,9 @@ import data from "./data/data";
 function App() {
   return (
     <>
-      <h1>Resort Lite</h1>
+      <header className='top-header'>
+        <h1>Resort Lite</h1>
+      </header>
       <ResortListingContainer data = {data}/>
     </>
   );
