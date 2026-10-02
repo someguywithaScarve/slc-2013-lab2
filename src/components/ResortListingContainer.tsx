@@ -12,5 +12,5 @@ export default function ResortListingContainer({ data }: ResortListingContainerP
                 <ResortListing key={list.id} {...list}/>
             ))}
         </div>
-    )
+    );
 }

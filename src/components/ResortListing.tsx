@@ -14,5 +14,5 @@ export default function ResortListing({
             <p>★{rating}</p>
             <p>{price}</p>
         </div>
-    )
+    );
 }
