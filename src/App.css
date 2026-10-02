@@ -58,7 +58,7 @@
 
 #center {
   display: flex;
-  flex-direction: column;
+  flex-direction: flex;
   gap: 25px;
   place-content: center;
   place-items: center;
