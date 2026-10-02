@@ -1,15 +1,15 @@
 import ResortListing from "./ResortListing";
-import type { ResortListingDets } from "../data/data";
+import type { ResortListingProps } from "../data/data";
 
-interface ResortListing {
-    listings: ResortListing[];
+interface ResortListingContainerProps {
+    data: ResortListingProps[];
 }
 
-export default function ResortListingContainer({ listings }: ResortListingDets) {
+export default function ResortListingContainer({ data }: ResortListingContainerProps) {
     return(
         <div className="ResortListingContainer">
-            {listings.map((list) => (
-                <ResortListing key={listings.id} {...listings}/>
+            {data.map((list) => (
+                <ResortListing key={list.id} {...list}/>
             ))}
         </div>
     )

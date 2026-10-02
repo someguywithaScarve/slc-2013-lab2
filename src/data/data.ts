@@ -1,4 +1,4 @@
-export interface ResortListingDets {
+export interface ResortListingProps {
   id: number;
   pic: string;
   country: string;
@@ -7,7 +7,7 @@ export interface ResortListingDets {
   price: number;
 }
 
-const listings: ResortListingDets[] = [
+export const listings: ResortListingProps[] = [
   {
     id: 1,
     pic: "/src/assets/images/1.jpg",
